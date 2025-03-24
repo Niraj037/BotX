@@ -1,0 +1,35 @@
+{
+  "name": "botx",
+  "version": "1.1.0",
+  "type": "module",
+  "description": "A CLI tool to automate the setup of a Discord bot with pre-configured dependencies.",
+  "main": "index.js",
+  "bin": {
+    "botx": "index.js"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "discord",
+    "bot",
+    "setup",
+    "automation",
+    "discord.js",
+    "cli",
+    "nodejs"
+  ],
+  "author": "Niraj Bhakta",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^5.4.1",
+    "figlet": "^1.8.0",
+    "gradient-string": "^2.0.2",
+    "inquirer": "^9.3.7",
+    "ora": "^7.0.1",
+    "shelljs": "^0.8.5"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
